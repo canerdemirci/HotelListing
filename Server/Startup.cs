@@ -32,7 +32,9 @@ namespace HotelListing.Server
                     .AllowAnyHeader());
             });
             services.AddAutoMapper(typeof(MapperInitializer));
-            services.AddControllersWithViews();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddControllersWithViews().AddNewtonsoftJson(
+                op => op.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddRazorPages();
         }
 
