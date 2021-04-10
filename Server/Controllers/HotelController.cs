@@ -8,6 +8,7 @@ using HotelListing.Shared;
 using AutoMapper;
 using HotelListing.Shared.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HotelListing.Server.Controllers
 {
@@ -46,9 +47,11 @@ namespace HotelListing.Server.Controllers
             }
         }
 
+        [Authorize]
         [HttpGet("{id:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> GetHotel(int id)
         {
             try

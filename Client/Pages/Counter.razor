@@ -1,16 +1,27 @@
-@page "/counter"
+@page "/country"
 
-<h1>Counter</h1>
+@using System.Net.Http;
+@using HotelListing.Shared.Models
+@inject HttpClient Http;
 
-<p>Current count: @currentCount</p>
+<h1>Countries</h1>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+@if (countries.Count < 1) {
+    <h2>Yükleniyor...</h2>
+}
+else
+{
+    @foreach (var country in countries)
+    {
+        <p>@country.Name</p>
+    }
+}
 
 @code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
+    private List<CountryDTO> countries = new List<CountryDTO>();
+    
+    protected override async Task OnInitializedAsync()
     {
-        currentCount++;
+        countries = await Http.GetFromJsonAsync<List<CountryDTO>>("api/Country");
     }
 }
