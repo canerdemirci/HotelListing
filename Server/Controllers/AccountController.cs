@@ -10,6 +10,7 @@ using HotelListing.Shared.Models;
 using Microsoft.AspNetCore.Identity;
 using HotelListing.Data;
 using HotelListing.Server.Services;
+using Microsoft.AspNetCore.Http;
 
 namespace HotelListing.Server.Controllers
 {
@@ -35,6 +36,9 @@ namespace HotelListing.Server.Controllers
 
         [HttpPost]
         [Route("register")]
+        [ProducesResponseType(StatusCodes.Status202Accepted)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Register([FromBody] UserDTO userDTO)
         {
             _logger.LogInformation($"Registiration attempt for {userDTO.Email}");
@@ -58,10 +62,11 @@ namespace HotelListing.Server.Controllers
                         ModelState.AddModelError(error.Code, error.Description);
                     }
 
-                    return BadRequest("User registration attempt failed");
+                    return BadRequest(ModelState);
                 }
 
                 await _userManager.AddToRolesAsync(user, userDTO.Roles);
+                
                 return Accepted();
             }
             catch (Exception ex)

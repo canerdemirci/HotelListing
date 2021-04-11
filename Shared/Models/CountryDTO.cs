@@ -14,6 +14,11 @@ namespace HotelListing.Shared.Models
         public virtual IList<HotelDTO> Hotels { get; set; }
     }
 
+    public class UpdateCountryDTO : CreateCountryDTO
+    {
+        public IList<CreateHotelDTO> Hotels { get; set; }
+    }
+
     public class CreateCountryDTO
     {
         [Required]

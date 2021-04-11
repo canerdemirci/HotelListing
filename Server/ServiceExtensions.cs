@@ -16,7 +16,7 @@ namespace HotelListing
     {
         public static void ConfigureIdentity(this IServiceCollection services)
         {
-            var builder = services.AddIdentityCore<ApiUser>(q => q.User.RequireUniqueEmail = true);
+            var builder = services.AddIdentityCore<ApiUser>(q => { q.User.RequireUniqueEmail = true; });
             builder = new IdentityBuilder(builder.UserType, typeof(IdentityRole), services);
             builder.AddEntityFrameworkStores<DatabaseContext>().AddDefaultTokenProviders();
         }
@@ -33,6 +33,7 @@ namespace HotelListing
                 .AddJwtBearer(opt => {
                     opt.TokenValidationParameters = new TokenValidationParameters {
                         ValidateIssuer = true,
+                        ValidateAudience = false,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
                         ValidIssuer = jwtSettings.GetSection("Issuer").Value,
