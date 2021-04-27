@@ -10,6 +10,7 @@ using HotelListing.Shared.Models;
 using HotelListing.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
+using Marvin.Cache.Headers;
 
 namespace HotelListing.Server.Controllers
 {
@@ -29,21 +30,17 @@ namespace HotelListing.Server.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetCountries()
+        // Can be used to override global caching on a particular endpoint at any point.
+        //[HttpCacheExpiration(CacheLocation = CacheLocation.Public, MaxAge = 60)]
+        //[HttpCacheValidation(MustRevalidate = false)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> GetCountries([FromQuery] RequestParams requestParams)
         {
-            try
-            {
-                var countries = await _unitOfWork.Countries.GetAll();
-                var results = _mapper.Map<IList<CountryDTO>>(countries);
+            var countries = await _unitOfWork.Countries.GetPagedList(requestParams);
+            var results = _mapper.Map<IList<CountryDTO>>(countries);
 
-                return Ok(results);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Something went wrong in the {nameof(GetCountries)}");
-
-                return StatusCode(500, "Intrnal server error. Please try again later.");
-            }
+            return Ok(results);
         }
 
         [Authorize]
@@ -53,19 +50,10 @@ namespace HotelListing.Server.Controllers
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> GetCountry(int id)
         {
-            try
-            {
-                var country = await _unitOfWork.Countries.Get(q => q.Id == id, new List<string> { "Hotels" });
-                var result = _mapper.Map<CountryDTO>(country);
+            var country = await _unitOfWork.Countries.Get(q => q.Id == id, new List<string> { "Hotels" });
+            var result = _mapper.Map<CountryDTO>(country);
 
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Something went wrong in the {nameof(GetCountry)}");
-
-                return StatusCode(500, "Internal server error. Please try again later.");
-            }
+            return Ok(result);
         }
 
         [Authorize(Roles = "Administrator")]
@@ -82,21 +70,12 @@ namespace HotelListing.Server.Controllers
                 return BadRequest(ModelState);
             }
 
-            try
-            {
-                var country = _mapper.Map<Country>(countryDTO);
+            var country = _mapper.Map<Country>(countryDTO);
 
-                await _unitOfWork.Countries.Insert(country);
-                await _unitOfWork.Save();
+            await _unitOfWork.Countries.Insert(country);
+            await _unitOfWork.Save();
 
-                return CreatedAtRoute("GetCountry", new { id = country.Id }, country);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Something went wrong in the {nameof(CreateCountry)}");
-
-                return StatusCode(500, "Internal server error. Please try again later.");
-            }
+            return CreatedAtRoute("GetCountry", new { id = country.Id }, country);
         }
 
         [Authorize]
@@ -113,29 +92,20 @@ namespace HotelListing.Server.Controllers
                 return BadRequest(ModelState);
             }
 
-            try
+            var country = await _unitOfWork.Countries.Get(q => q.Id == id);
+
+            if (country == null)
             {
-                var country = await _unitOfWork.Countries.Get(q => q.Id == id);
+                _logger.LogError($"Invalid update attempt in the {nameof(UpdateCountry)}");
 
-                if (country == null)
-                {
-                    _logger.LogError($"Invalid update attempt in the {nameof(UpdateCountry)}");
-
-                    return BadRequest("Submitted data is invalid");
-                }
-
-                _mapper.Map(countryDTO, country);
-                _unitOfWork.Countries.Update(country);
-                await _unitOfWork.Save();
-
-                return NoContent();
+                return BadRequest("Submitted data is invalid");
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Somtehing went wrong in the {nameof(UpdateCountry)}");
 
-                return StatusCode(500, "Internal server error. Please try again later.");
-            }
+            _mapper.Map(countryDTO, country);
+            _unitOfWork.Countries.Update(country);
+            await _unitOfWork.Save();
+
+            return NoContent();
         }
 
         [Authorize]
@@ -152,28 +122,19 @@ namespace HotelListing.Server.Controllers
                 return BadRequest();
             }
 
-            try
+            var country = await _unitOfWork.Countries.Get(q => q.Id == id);
+
+            if (country == null)
             {
-                var country = await _unitOfWork.Countries.Get(q => q.Id == id);
+                _logger.LogError($"Invalid delete attempt in {nameof(DeleteCountry)}");
 
-                if (country == null)
-                {
-                    _logger.LogError($"Invalid delete attempt in {nameof(DeleteCountry)}");
-
-                    return BadRequest("Submitted data is invalid");
-                }
-
-                await _unitOfWork.Countries.Delete(id);
-                await _unitOfWork.Save();
-
-                return NoContent();
+                return BadRequest("Submitted data is invalid");
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Something went wrong in the {nameof(DeleteCountry)}");
 
-                return StatusCode(500, "Internal server error. Please try again later.");
-            }
+            await _unitOfWork.Countries.Delete(id);
+            await _unitOfWork.Save();
+
+            return NoContent();
         }
     }
 }

@@ -7401,3 +7401,690 @@ FROM [Hotels] AS [h]
 2021-04-11 20:39:01.360 +03:00 [INF] Application started. Press Ctrl+C to shut down.
 2021-04-11 20:39:01.360 +03:00 [INF] Hosting environment: Development
 2021-04-11 20:39:01.360 +03:00 [INF] Content root path: C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Server
+2021-04-11 20:39:57.243 +03:00 [INF] Application is starting
+2021-04-11 20:39:57.761 +03:00 [INF] User profile is available. Using 'C:\Users\caner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-11 20:39:58.166 +03:00 [INF] Now listening on: https://localhost:5001
+2021-04-11 20:39:58.166 +03:00 [INF] Now listening on: http://localhost:5000
+2021-04-11 20:39:58.166 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-11 20:39:58.167 +03:00 [INF] Hosting environment: Development
+2021-04-11 20:39:58.167 +03:00 [INF] Content root path: C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Server
+2021-04-11 20:39:58.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.webassembly.js - -
+2021-04-11 20:39:58.423 +03:00 [INF] The file /_framework/blazor.webassembly.js was not modified
+2021-04-11 20:39:58.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.webassembly.js - - - 304 - application/javascript 93.7922ms
+2021-04-11 20:39:59.950 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.boot.json - -
+2021-04-11 20:40:00.064 +03:00 [INF] Sending file. Request path: '/_framework/blazor.boot.json'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.boot.json'
+2021-04-11 20:40:00.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.boot.json - - - 200 19443 application/json 114.7878ms
+2021-04-11 20:40:00.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/dotnet.5.0.2.js - -
+2021-04-11 20:40:00.230 +03:00 [INF] The file /_framework/dotnet.5.0.2.js.gz was not modified
+2021-04-11 20:40:00.230 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/dotnet.5.0.2.js - - - 304 - application/javascript 5.8336ms
+2021-04-11 20:40:03.728 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Components.Forms.dll - -
+2021-04-11 20:40:03.734 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll - -
+2021-04-11 20:40:03.743 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Components.Web.dll - -
+2021-04-11 20:40:03.748 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Metadata.dll - -
+2021-04-11 20:40:03.766 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Authorization.dll - -
+2021-04-11 20:40:03.766 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.FileExtensions.dll - -
+2021-04-11 20:40:03.767 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.dll - -
+2021-04-11 20:40:03.768 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Primitives.dll - -
+2021-04-11 20:40:03.769 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Pipelines.dll - -
+2021-04-11 20:40:03.770 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.NonGeneric.dll - -
+2021-04-11 20:40:03.771 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.dll - -
+2021-04-11 20:40:03.772 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.AppContext.dll - -
+2021-04-11 20:40:03.774 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Core.dll - -
+2021-04-11 20:40:03.776 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.EventBasedAsync.dll - -
+2021-04-11 20:40:03.777 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Debug.dll - -
+2021-04-11 20:40:03.779 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Drawing.Primitives.dll - -
+2021-04-11 20:40:03.780 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.TextWriterTraceListener.dll - -
+2021-04-11 20:40:03.782 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Globalization.Calendars.dll - -
+2021-04-11 20:40:03.825 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.DriveInfo.dll - -
+2021-04-11 20:40:03.828 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Compression.FileSystem.dll - -
+2021-04-11 20:40:03.890 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Pipes.dll - -
+2021-04-11 20:40:03.891 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.dll - -
+2021-04-11 20:40:03.893 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Linq.Expressions.dll - -
+2021-04-11 20:40:03.895 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Memory.dll - -
+2021-04-11 20:40:03.896 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.NameResolution.dll - -
+2021-04-11 20:40:03.896 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Primitives.dll - -
+2021-04-11 20:40:03.896 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Sockets.dll - -
+2021-04-11 20:40:03.897 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.dll - -
+2021-04-11 20:40:03.903 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.Compression.FileSystem.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll'
+2021-04-11 20:40:03.904 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebClient.dll - -
+2021-04-11 20:40:03.904 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Compression.FileSystem.dll - - - 200 14720 application/octet-stream 76.0282ms
+2021-04-11 20:40:03.904 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Private.Xml.Linq.dll - -
+2021-04-11 20:40:03.904 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Emit.Lightweight.dll - -
+2021-04-11 20:40:03.904 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.dll - -
+2021-04-11 20:40:03.905 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Resources.Writer.dll - -
+2021-04-11 20:40:03.905 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Extensions.dll - -
+2021-04-11 20:40:03.905 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.Primitives.dll - -
+2021-04-11 20:40:03.906 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Intrinsics.dll - -
+2021-04-11 20:40:03.905 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Debug.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Debug.dll'
+2021-04-11 20:40:03.906 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Claims.dll - -
+2021-04-11 20:40:03.906 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Debug.dll - - - 200 14728 application/octet-stream 128.9399ms
+2021-04-11 20:40:03.906 +03:00 [INF] Sending file. Request path: '/_framework/System.AppContext.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.AppContext.dll'
+2021-04-11 20:40:03.906 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Components.dll - -
+2021-04-11 20:40:03.906 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.AppContext.dll - - - 200 14216 application/octet-stream 134.0172ms
+2021-04-11 20:40:03.907 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Csp.dll - -
+2021-04-11 20:40:03.906 +03:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.dll'
+2021-04-11 20:40:03.907 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.dll - - - 200 15752 application/octet-stream 136.4415ms
+2021-04-11 20:40:03.908 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.dll - -
+2021-04-11 20:40:03.908 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.AccessControl.dll - -
+2021-04-11 20:40:03.908 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Encoding.CodePages.dll - -
+2021-04-11 20:40:03.909 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Json.dll - -
+2021-04-11 20:40:03.909 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Tasks.Dataflow.dll - -
+2021-04-11 20:40:03.910 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Logging.dll - -
+2021-04-11 20:40:03.910 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Thread.dll - -
+2021-04-11 20:40:03.910 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Transactions.Local.dll - -
+2021-04-11 20:40:03.911 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XmlDocument.dll - -
+2021-04-11 20:40:03.911 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Windows.dll - -
+2021-04-11 20:40:03.911 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XDocument.dll - -
+2021-04-11 20:40:03.912 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.Binder.dll - -
+2021-04-11 20:40:03.913 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.Abstractions.dll - -
+2021-04-11 20:40:03.913 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Metadata.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll'
+2021-04-11 20:40:03.913 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll - -
+2021-04-11 20:40:03.913 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Metadata.dll - - - 200 15240 application/octet-stream 165.3711ms
+2021-04-11 20:40:03.913 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Logging.Abstractions.dll - -
+2021-04-11 20:40:03.914 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll - -
+2021-04-11 20:40:03.914 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.FileSystemGlobbing.dll - -
+2021-04-11 20:40:03.915 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.DependencyInjection.dll - -
+2021-04-11 20:40:03.915 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Win32.Primitives.dll - -
+2021-04-11 20:40:03.915 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.JSInterop.dll - -
+2021-04-11 20:40:03.916 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.VisualBasic.dll - -
+2021-04-11 20:40:03.917 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.DriveInfo.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll'
+2021-04-11 20:40:03.917 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.TextWriterTraceListener.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll'
+2021-04-11 20:40:03.918 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.dll - -
+2021-04-11 20:40:03.918 +03:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.EventBasedAsync.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll'
+2021-04-11 20:40:03.919 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Emit.Lightweight.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll'
+2021-04-11 20:40:03.919 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Emit.Lightweight.dll - - - 200 14216 application/octet-stream 14.8570ms
+2021-04-11 20:40:03.919 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.VisualBasic.Core.dll - -
+2021-04-11 20:40:03.919 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.JSInterop.WebAssembly.dll - -
+2021-04-11 20:40:03.919 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.Primitives.dll - -
+2021-04-11 20:40:03.920 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.Concurrent.dll - -
+2021-04-11 20:40:03.920 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Data.dll - -
+2021-04-11 20:40:03.920 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.dll'
+2021-04-11 20:40:03.921 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.dll - - - 200 15248 application/octet-stream 16.5004ms
+2021-04-11 20:40:03.921 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Buffers.dll - -
+2021-04-11 20:40:03.921 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Process.dll - -
+2021-04-11 20:40:03.921 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.EventBasedAsync.dll - - - 200 25480 application/octet-stream 145.7947ms
+2021-04-11 20:40:03.921 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.DriveInfo.dll - - - 200 21896 application/octet-stream 99.7968ms
+2021-04-11 20:40:03.921 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.TextWriterTraceListener.dll - - - 200 30088 application/octet-stream 141.0447ms
+2021-04-11 20:40:03.922 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.Specialized.dll - -
+2021-04-11 20:40:03.922 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Data.DataSetExtensions.dll - -
+2021-04-11 20:40:03.922 +03:00 [INF] Sending file. Request path: '/_framework/System.Globalization.Calendars.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Calendars.dll'
+2021-04-11 20:40:03.922 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Globalization.Calendars.dll - - - 200 14720 application/octet-stream 140.4921ms
+2021-04-11 20:40:03.922 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.DiagnosticSource.dll - -
+2021-04-11 20:40:03.922 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Globalization.dll - -
+2021-04-11 20:40:03.923 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Globalization.Extensions.dll - -
+2021-04-11 20:40:03.921 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Drawing.dll - -
+2021-04-11 20:40:03.923 +03:00 [INF] Sending file. Request path: '/_framework/System.Core.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Core.dll'
+2021-04-11 20:40:03.923 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Core.dll - - - 200 22920 application/octet-stream 149.3233ms
+2021-04-11 20:40:03.923 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Tracing.dll - -
+2021-04-11 20:40:03.924 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.Primitives.dll - -
+2021-04-11 20:40:03.924 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Intrinsics.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Intrinsics.dll'
+2021-04-11 20:40:03.924 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Contracts.dll - -
+2021-04-11 20:40:03.924 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Intrinsics.dll - - - 200 15240 application/octet-stream 18.4658ms
+2021-04-11 20:40:03.924 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.DataAnnotations.dll - -
+2021-04-11 20:40:03.924 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll'
+2021-04-11 20:40:03.925 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.dll - - - 200 30600 application/octet-stream 157.7093ms
+2021-04-11 20:40:03.925 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.UnmanagedMemoryStream.dll - -
+2021-04-11 20:40:03.926 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Formats.Asn1.dll - -
+2021-04-11 20:40:03.926 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.Thread.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Thread.dll'
+2021-04-11 20:40:03.926 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.XmlDocument.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlDocument.dll'
+2021-04-11 20:40:03.926 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.XDocument.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XDocument.dll'
+2021-04-11 20:40:03.926 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Thread.dll - - - 200 14720 application/octet-stream 16.3711ms
+2021-04-11 20:40:03.926 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XDocument.dll - - - 200 14728 application/octet-stream 15.1277ms
+2021-04-11 20:40:03.926 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XmlDocument.dll - - - 200 14728 application/octet-stream 15.8060ms
+2021-04-11 20:40:03.927 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.AccessControl.dll - -
+2021-04-11 20:40:03.927 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Security.dll - -
+2021-04-11 20:40:03.927 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.IsolatedStorage.dll - -
+2021-04-11 20:40:03.928 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.HttpListener.dll - -
+2021-04-11 20:40:03.928 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.Watcher.dll - -
+2021-04-11 20:40:03.928 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Private.Uri.dll - -
+2021-04-11 20:40:03.928 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.FileExtensions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll'
+2021-04-11 20:40:03.928 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.FileExtensions.dll - - - 200 25480 application/octet-stream 162.3144ms
+2021-04-11 20:40:03.929 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Compression.ZipFile.dll - -
+2021-04-11 20:40:03.929 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Http.dll - -
+2021-04-11 20:40:03.929 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.TraceSource.dll - -
+2021-04-11 20:40:03.929 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebProxy.dll - -
+2021-04-11 20:40:03.929 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Http.Json.dll - -
+2021-04-11 20:40:03.930 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Numerics.dll - -
+2021-04-11 20:40:03.930 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.NetworkInformation.dll - -
+2021-04-11 20:40:03.931 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Linq.Parallel.dll - -
+2021-04-11 20:40:03.931 +03:00 [INF] Sending file. Request path: '/_framework/System.Data.DataSetExtensions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.DataSetExtensions.dll'
+2021-04-11 20:40:03.931 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Emit.ILGeneration.dll - -
+2021-04-11 20:40:03.931 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Data.DataSetExtensions.dll - - - 200 14216 application/octet-stream 9.1340ms
+2021-04-11 20:40:03.931 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Pipes.AccessControl.dll - -
+2021-04-11 20:40:03.931 +03:00 [INF] Sending file. Request path: '/_framework/System.Buffers.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Buffers.dll'
+2021-04-11 20:40:03.932 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Resources.ResourceManager.dll - -
+2021-04-11 20:40:03.932 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Buffers.dll - - - 200 14208 application/octet-stream 11.1057ms
+2021-04-11 20:40:03.932 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Numerics.Vectors.dll - -
+2021-04-11 20:40:03.932 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Encoding.dll - -
+2021-04-11 20:40:03.933 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Encodings.Web.dll - -
+2021-04-11 20:40:03.934 +03:00 [INF] Sending file. Request path: '/_framework/System.Globalization.Extensions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Extensions.dll'
+2021-04-11 20:40:03.934 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.CompilerServices.Unsafe.dll - -
+2021-04-11 20:40:03.934 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Globalization.Extensions.dll - - - 200 14216 application/octet-stream 11.4603ms
+2021-04-11 20:40:03.935 +03:00 [INF] Sending file. Request path: '/_framework/System.Globalization.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.dll'
+2021-04-11 20:40:03.935 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebHeaderCollection.dll - -
+2021-04-11 20:40:03.935 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Globalization.dll - - - 200 14720 application/octet-stream 12.3645ms
+2021-04-11 20:40:03.935 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Tracing.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tracing.dll'
+2021-04-11 20:40:03.935 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Options.dll - -
+2021-04-11 20:40:03.935 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Tracing.dll - - - 200 15240 application/octet-stream 11.7317ms
+2021-04-11 20:40:03.935 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll'
+2021-04-11 20:40:03.936 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.Primitives.dll - - - 200 14216 application/octet-stream 11.7139ms
+2021-04-11 20:40:03.936 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Requests.dll - -
+2021-04-11 20:40:03.936 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Extensions.dll - -
+2021-04-11 20:40:03.936 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.DispatchProxy.dll - -
+2021-04-11 20:40:03.936 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Metadata.dll - -
+2021-04-11 20:40:03.937 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Numerics.dll - -
+2021-04-11 20:40:03.937 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Private.DataContractSerialization.dll - -
+2021-04-11 20:40:03.937 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Contracts.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Contracts.dll'
+2021-04-11 20:40:03.937 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Handles.dll - -
+2021-04-11 20:40:03.937 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebSockets.Client.dll - -
+2021-04-11 20:40:03.938 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Contracts.dll - - - 200 14720 application/octet-stream 13.5717ms
+2021-04-11 20:40:03.938 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.OpenSsl.dll - -
+2021-04-11 20:40:03.938 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Loader.dll - -
+2021-04-11 20:40:03.938 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Channels.dll - -
+2021-04-11 20:40:03.938 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.UnmanagedMemoryStream.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll'
+2021-04-11 20:40:03.939 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.UnmanagedMemoryStream.dll - - - 200 14216 application/octet-stream 13.6287ms
+2021-04-11 20:40:03.939 +03:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.DataAnnotations.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll'
+2021-04-11 20:40:03.939 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Timer.dll - -
+2021-04-11 20:40:03.939 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Resources.Reader.dll - -
+2021-04-11 20:40:03.939 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.DataAnnotations.dll - - - 200 16256 application/octet-stream 14.7783ms
+2021-04-11 20:40:03.939 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Private.Xml.dll - -
+2021-04-11 20:40:03.940 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.FileVersionInfo.dll - -
+2021-04-11 20:40:03.940 +03:00 [INF] Sending file. Request path: '/_framework/System.Windows.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Windows.dll'
+2021-04-11 20:40:03.940 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Windows.dll - - - 200 15240 application/octet-stream 29.8609ms
+2021-04-11 20:40:03.942 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Principal.Windows.dll - -
+2021-04-11 20:40:03.942 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ValueTuple.dll - -
+2021-04-11 20:40:03.945 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.X509Certificates.dll - -
+2021-04-11 20:40:03.945 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Tasks.Parallel.dll - -
+2021-04-11 20:40:03.945 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Win32.Registry.dll - -
+2021-04-11 20:40:03.946 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.Xml.dll - -
+2021-04-11 20:40:03.946 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Algorithms.dll - -
+2021-04-11 20:40:03.947 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Principal.dll - -
+2021-04-11 20:40:03.948 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.Json.dll - -
+2021-04-11 20:40:03.950 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.dll - -
+2021-04-11 20:40:03.951 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Components.Forms.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll'
+2021-04-11 20:40:03.951 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Win32.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll'
+2021-04-11 20:40:03.951 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Win32.Primitives.dll - - - 200 17288 application/octet-stream 36.7564ms
+2021-04-11 20:40:03.952 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Encoding.Extensions.dll - -
+2021-04-11 20:40:03.952 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Components.Forms.dll - - - 200 31112 application/octet-stream 224.4697ms
+2021-04-11 20:40:03.952 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Overlapped.dll - -
+2021-04-11 20:40:03.953 +03:00 [INF] Sending file. Request path: '/_framework/System.Numerics.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.dll'
+2021-04-11 20:40:03.953 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Emit.ILGeneration.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll'
+2021-04-11 20:40:03.953 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Transactions.dll - -
+2021-04-11 20:40:03.953 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Numerics.dll - - - 200 14728 application/octet-stream 23.6584ms
+2021-04-11 20:40:03.953 +03:00 [INF] Sending file. Request path: '/_framework/System.Resources.ResourceManager.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.ResourceManager.dll'
+2021-04-11 20:40:03.953 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Emit.ILGeneration.dll - - - 200 14720 application/octet-stream 22.5300ms
+2021-04-11 20:40:03.954 +03:00 [INF] Sending file. Request path: '/_framework/System.Numerics.Vectors.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.Vectors.dll'
+2021-04-11 20:40:03.954 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Resources.ResourceManager.dll - - - 200 14728 application/octet-stream 21.8967ms
+2021-04-11 20:40:03.954 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.Annotations.dll - -
+2021-04-11 20:40:03.954 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Numerics.Vectors.dll - - - 200 14216 application/octet-stream 21.7464ms
+2021-04-11 20:40:03.954 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Web.dll - -
+2021-04-11 20:40:03.954 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Tasks.dll - -
+2021-04-11 20:40:03.954 +03:00 [INF] Sending file. Request path: '/_framework/System.Text.Encoding.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.dll'
+2021-04-11 20:40:03.955 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XPath.dll - -
+2021-04-11 20:40:03.955 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.Immutable.dll - -
+2021-04-11 20:40:03.955 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Encoding.dll - - - 200 14728 application/octet-stream 22.4124ms
+2021-04-11 20:40:03.955 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.CompilerServices.Unsafe.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll'
+2021-04-11 20:40:03.955 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.CompilerServices.Unsafe.dll - - - 200 15232 application/octet-stream 20.9608ms
+2021-04-11 20:40:03.955 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XPath.XDocument.dll - -
+2021-04-11 20:40:03.955 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Text.RegularExpressions.dll - -
+2021-04-11 20:40:03.956 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.dll - -
+2021-04-11 20:40:03.956 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Extensions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Extensions.dll'
+2021-04-11 20:40:03.956 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Extensions.dll - - - 200 14216 application/octet-stream 20.3558ms
+2021-04-11 20:40:03.956 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Loader.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Loader.dll'
+2021-04-11 20:40:03.957 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ServiceModel.Web.dll - -
+2021-04-11 20:40:03.957 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.Linq.dll - -
+2021-04-11 20:40:03.957 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Loader.dll - - - 200 14216 application/octet-stream 18.6132ms
+2021-04-11 20:40:03.957 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Handles.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Handles.dll'
+2021-04-11 20:40:03.957 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Handles.dll - - - 200 14216 application/octet-stream 19.8502ms
+2021-04-11 20:40:03.957 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.TypeConverter.dll - -
+2021-04-11 20:40:03.958 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/HotelListing.Shared.dll - -
+2021-04-11 20:40:03.958 +03:00 [INF] Sending file. Request path: '/_framework/System.Resources.Reader.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Reader.dll'
+2021-04-11 20:40:03.958 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.Timer.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Timer.dll'
+2021-04-11 20:40:03.958 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Timer.dll - - - 200 14216 application/octet-stream 18.9579ms
+2021-04-11 20:40:03.958 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Resources.Reader.dll - - - 200 14216 application/octet-stream 19.0674ms
+2021-04-11 20:40:03.958 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XmlSerializer.dll - -
+2021-04-11 20:40:03.958 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Configuration.dll - -
+2021-04-11 20:40:03.959 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/netstandard.dll - -
+2021-04-11 20:40:03.959 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.dll - -
+2021-04-11 20:40:03.959 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Data.Common.dll - -
+2021-04-11 20:40:03.959 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/mscorlib.dll - -
+2021-04-11 20:40:03.959 +03:00 [INF] Sending file. Request path: '/_framework/System.ValueTuple.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ValueTuple.dll'
+2021-04-11 20:40:03.960 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ValueTuple.dll - - - 200 14216 application/octet-stream 17.5806ms
+2021-04-11 20:40:03.960 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.Serialization.dll - -
+2021-04-11 20:40:03.960 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.Xml.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll'
+2021-04-11 20:40:03.960 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Principal.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.dll'
+2021-04-11 20:40:03.961 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Principal.dll - - - 200 14216 application/octet-stream 13.9324ms
+2021-04-11 20:40:03.961 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.Xml.dll - - - 200 15240 application/octet-stream 14.7743ms
+2021-04-11 20:40:03.961 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.Overlapped.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Overlapped.dll'
+2021-04-11 20:40:03.961 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.Http.Json.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.Json.dll'
+2021-04-11 20:40:03.961 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Overlapped.dll - - - 200 14216 application/octet-stream 9.5509ms
+2021-04-11 20:40:03.962 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Http.Json.dll - - - 200 30088 application/octet-stream 32.0361ms
+2021-04-11 20:40:03.962 +03:00 [INF] Sending file. Request path: '/_framework/System.Text.Encoding.Extensions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll'
+2021-04-11 20:40:03.962 +03:00 [INF] Sending file. Request path: '/_framework/System.Transactions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.dll'
+2021-04-11 20:40:03.962 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Transactions.dll - - - 200 15752 application/octet-stream 8.5211ms
+2021-04-11 20:40:03.962 +03:00 [INF] Sending file. Request path: '/_framework/System.Web.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.dll'
+2021-04-11 20:40:03.962 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Encoding.Extensions.dll - - - 200 14216 application/octet-stream 10.3052ms
+2021-04-11 20:40:03.963 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Web.dll - - - 200 14720 application/octet-stream 8.4792ms
+2021-04-11 20:40:03.963 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.XPath.XDocument.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll'
+2021-04-11 20:40:03.963 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.XPath.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.dll'
+2021-04-11 20:40:03.963 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XPath.XDocument.dll - - - 200 15240 application/octet-stream 8.2862ms
+2021-04-11 20:40:03.964 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XPath.dll - - - 200 14720 application/octet-stream 8.9385ms
+2021-04-11 20:40:03.964 +03:00 [INF] Sending file. Request path: '/_framework/System.ServiceModel.Web.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceModel.Web.dll'
+2021-04-11 20:40:03.964 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.Linq.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Linq.dll'
+2021-04-11 20:40:03.965 +03:00 [INF] Sending file. Request path: '/_framework/HotelListing.Shared.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\HotelListing.Shared.dll'
+2021-04-11 20:40:03.965 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.Linq.dll - - - 200 15240 application/octet-stream 8.7010ms
+2021-04-11 20:40:03.966 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ServiceModel.Web.dll - - - 200 15752 application/octet-stream 9.0070ms
+2021-04-11 20:40:03.966 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/HotelListing.Shared.dll - - - 200 8192 application/octet-stream 7.7908ms
+2021-04-11 20:40:03.966 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Web.HttpUtility.dll - -
+2021-04-11 20:40:03.966 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/HotelListing.Client.pdb - -
+2021-04-11 20:40:03.968 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.Tasks.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.dll'
+2021-04-11 20:40:03.968 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.Serialization.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Serialization.dll'
+2021-04-11 20:40:03.968 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.Serialization.dll - - - 200 15232 application/octet-stream 8.1741ms
+2021-04-11 20:40:03.968 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Linq.dll - -
+2021-04-11 20:40:03.968 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Tasks.dll - - - 200 15752 application/octet-stream 14.0077ms
+2021-04-11 20:40:03.968 +03:00 [INF] Sending file. Request path: '/_framework/HotelListing.Client.pdb'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\HotelListing.Client.pdb'
+2021-04-11 20:40:03.968 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.StackTrace.dll - -
+2021-04-11 20:40:03.968 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/HotelListing.Client.pdb - - - 200 14352 application/octet-stream 2.5372ms
+2021-04-11 20:40:03.969 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.ThreadPool.dll - -
+2021-04-11 20:40:03.969 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.ReaderWriter.dll - -
+2021-04-11 20:40:03.969 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Tools.dll - -
+2021-04-11 20:40:03.970 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.InteropServices.RuntimeInformation.dll - -
+2021-04-11 20:40:03.971 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Tools.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tools.dll'
+2021-04-11 20:40:03.971 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.ThreadPool.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.ThreadPool.dll'
+2021-04-11 20:40:03.971 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Tools.dll - - - 200 14216 application/octet-stream 1.5556ms
+2021-04-11 20:40:03.971 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.ThreadPool.dll - - - 200 14208 application/octet-stream 2.0722ms
+2021-04-11 20:40:03.971 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Compression.Brotli.dll - -
+2021-04-11 20:40:03.971 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Dynamic.Runtime.dll - -
+2021-04-11 20:40:03.971 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Console.dll - -
+2021-04-11 20:40:03.971 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Private.CoreLib.dll - -
+2021-04-11 20:40:03.972 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Linq.Queryable.dll - -
+2021-04-11 20:40:03.972 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/HotelListing.Shared.pdb - -
+2021-04-11 20:40:03.972 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Ping.dll - -
+2021-04-11 20:40:03.973 +03:00 [INF] Sending file. Request path: '/_framework/System.Dynamic.Runtime.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Dynamic.Runtime.dll'
+2021-04-11 20:40:03.973 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Mail.dll - -
+2021-04-11 20:40:03.973 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Dynamic.Runtime.dll - - - 200 15240 application/octet-stream 1.9598ms
+2021-04-11 20:40:03.974 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.ServicePoint.dll - -
+2021-04-11 20:40:03.974 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Compression.dll - -
+2021-04-11 20:40:03.974 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ObjectModel.dll - -
+2021-04-11 20:40:03.975 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.CSharp.dll - -
+2021-04-11 20:40:03.975 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebSockets.dll - -
+2021-04-11 20:40:03.975 +03:00 [INF] Sending file. Request path: '/_framework/HotelListing.Shared.pdb'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\HotelListing.Shared.pdb'
+2021-04-11 20:40:03.975 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/HotelListing.Shared.pdb - - - 200 10844 application/octet-stream 2.9260ms
+2021-04-11 20:40:03.975 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Emit.dll - -
+2021-04-11 20:40:03.975 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Private.Runtime.InteropServices.JavaScript.dll - -
+2021-04-11 20:40:03.976 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.TypeExtensions.dll - -
+2021-04-11 20:40:03.976 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.CompilerServices.VisualC.dll - -
+2021-04-11 20:40:03.976 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.InteropServices.dll - -
+2021-04-11 20:40:03.976 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.Formatters.dll - -
+2021-04-11 20:40:03.977 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Cng.dll - -
+2021-04-11 20:40:03.977 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Emit.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.dll'
+2021-04-11 20:40:03.977 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Primitives.dll - -
+2021-04-11 20:40:03.977 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.ServiceProcess.dll - -
+2021-04-11 20:40:03.978 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Emit.dll - - - 200 14728 application/octet-stream 1.9944ms
+2021-04-11 20:40:03.978 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.FileProviders.Physical.dll - -
+2021-04-11 20:40:03.978 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.Json.dll - -
+2021-04-11 20:40:03.979 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.MemoryMappedFiles.dll - -
+2021-04-11 20:40:03.979 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.dll - -
+2021-04-11 20:40:03.980 +03:00 [INF] Sending file. Request path: '/_framework/System.ServiceProcess.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceProcess.dll'
+2021-04-11 20:40:03.980 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ServiceProcess.dll - - - 200 15232 application/octet-stream 2.5019ms
+2021-04-11 20:40:03.982 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.Json.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll'
+2021-04-11 20:40:03.982 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.Json.dll - - - 200 14728 application/octet-stream 3.4295ms
+2021-04-11 20:40:03.982 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.Pipes.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.dll'
+2021-04-11 20:40:03.982 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Pipes.dll - - - 200 30600 application/octet-stream 92.8375ms
+2021-04-11 20:40:03.984 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.dll'
+2021-04-11 20:40:03.984 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.NameResolution.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NameResolution.dll'
+2021-04-11 20:40:03.984 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.NameResolution.dll - - - 200 20360 application/octet-stream 88.0946ms
+2021-04-11 20:40:03.984 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.dll - - - 200 16776 application/octet-stream 87.6329ms
+2021-04-11 20:40:03.985 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Authorization.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll'
+2021-04-11 20:40:03.985 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Authorization.dll - - - 200 43912 application/octet-stream 219.1790ms
+2021-04-11 20:40:03.986 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.WebClient.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebClient.dll'
+2021-04-11 20:40:03.986 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll'
+2021-04-11 20:40:03.986 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebClient.dll - - - 200 29576 application/octet-stream 82.1965ms
+2021-04-11 20:40:03.986 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Primitives.dll - - - 200 39296 application/octet-stream 217.9664ms
+2021-04-11 20:40:03.986 +03:00 [INF] Sending file. Request path: '/_framework/System.Resources.Writer.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Writer.dll'
+2021-04-11 20:40:03.986 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Resources.Writer.dll - - - 200 25992 application/octet-stream 81.6669ms
+2021-04-11 20:40:03.986 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Extensions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Extensions.dll'
+2021-04-11 20:40:03.987 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Extensions.dll - - - 200 16776 application/octet-stream 81.8317ms
+2021-04-11 20:40:03.987 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll'
+2021-04-11 20:40:03.987 +03:00 [INF] Sending file. Request path: '/_framework/System.Collections.NonGeneric.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.NonGeneric.dll'
+2021-04-11 20:40:03.987 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.Primitives.dll - - - 200 21384 application/octet-stream 81.8436ms
+2021-04-11 20:40:03.987 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.NonGeneric.dll - - - 200 46472 application/octet-stream 217.2399ms
+2021-04-11 20:40:03.989 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.dll'
+2021-04-11 20:40:03.990 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.dll - - - 200 17288 application/octet-stream 82.0924ms
+2021-04-11 20:40:03.990 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.Binder.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll'
+2021-04-11 20:40:03.990 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.Abstractions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll'
+2021-04-11 20:40:03.990 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.Abstractions.dll - - - 200 20360 application/octet-stream 77.5388ms
+2021-04-11 20:40:03.990 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.Binder.dll - - - 200 28040 application/octet-stream 77.8790ms
+2021-04-11 20:40:03.991 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll'
+2021-04-11 20:40:03.991 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.VisualBasic.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.dll'
+2021-04-11 20:40:03.991 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll - - - 200 16776 application/octet-stream 77.4094ms
+2021-04-11 20:40:03.991 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.VisualBasic.dll - - - 200 16776 application/octet-stream 75.4645ms
+2021-04-11 20:40:03.991 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.JSInterop.WebAssembly.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll'
+2021-04-11 20:40:03.992 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.JSInterop.WebAssembly.dll - - - 200 18312 application/octet-stream 72.5893ms
+2021-04-11 20:40:03.992 +03:00 [INF] Sending file. Request path: '/_framework/System.Data.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.dll'
+2021-04-11 20:40:03.992 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Data.dll - - - 200 23432 application/octet-stream 71.8588ms
+2021-04-11 20:40:03.993 +03:00 [INF] Sending file. Request path: '/_framework/System.Drawing.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.dll'
+2021-04-11 20:40:03.993 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Drawing.dll - - - 200 19848 application/octet-stream 71.4202ms
+2021-04-11 20:40:03.993 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.AccessControl.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll'
+2021-04-11 20:40:03.993 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Csp.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll'
+2021-04-11 20:40:03.993 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.Watcher.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll'
+2021-04-11 20:40:03.993 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.AccessControl.dll - - - 200 24968 application/octet-stream 66.5128ms
+2021-04-11 20:40:03.993 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Csp.dll - - - 200 31624 application/octet-stream 86.5194ms
+2021-04-11 20:40:03.993 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.Watcher.dll - - - 200 25480 application/octet-stream 65.4044ms
+2021-04-11 20:40:03.994 +03:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Primitives.dll'
+2021-04-11 20:40:03.994 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.WebProxy.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebProxy.dll'
+2021-04-11 20:40:03.994 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.Primitives.dll - - - 200 36232 application/octet-stream 74.7289ms
+2021-04-11 20:40:03.995 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebProxy.dll - - - 200 19848 application/octet-stream 65.6305ms
+2021-04-11 20:40:03.995 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.Compression.ZipFile.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll'
+2021-04-11 20:40:03.995 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Compression.ZipFile.dll - - - 200 23432 application/octet-stream 66.0735ms
+2021-04-11 20:40:03.995 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.Pipes.AccessControl.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll'
+2021-04-11 20:40:03.996 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Pipes.AccessControl.dll - - - 200 20360 application/octet-stream 64.2475ms
+2021-04-11 20:40:03.996 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.WebHeaderCollection.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll'
+2021-04-11 20:40:03.996 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/WindowsBase.dll - -
+2021-04-11 20:40:03.997 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebHeaderCollection.dll - - - 200 32640 application/octet-stream 61.7646ms
+2021-04-11 20:40:03.998 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.OpenSsl.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll'
+2021-04-11 20:40:03.998 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/HotelListing.Client.dll - -
+2021-04-11 20:40:03.998 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.OpenSsl.dll - - - 200 25992 application/octet-stream 60.0854ms
+2021-04-11 20:40:03.998 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Encoding.dll - -
+2021-04-11 20:40:03.999 +03:00 [INF] Sending file. Request path: '/_framework/WindowsBase.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\WindowsBase.dll'
+2021-04-11 20:40:03.999 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.FileVersionInfo.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll'
+2021-04-11 20:40:03.999 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/WindowsBase.dll - - - 200 15752 application/octet-stream 2.4794ms
+2021-04-11 20:40:03.999 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.FileVersionInfo.dll - - - 200 18824 application/octet-stream 59.1408ms
+2021-04-11 20:40:04.000 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.IsolatedStorage.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.IsolatedStorage.dll'
+2021-04-11 20:40:04.000 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.IsolatedStorage.dll - - - 200 27016 application/octet-stream 73.6213ms
+2021-04-11 20:40:04.001 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.Json.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll'
+2021-04-11 20:40:04.001 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Configuration.Json.dll - - - 200 24960 application/octet-stream 52.8687ms
+2021-04-11 20:40:04.001 +03:00 [INF] Sending file. Request path: '/_framework/System.Configuration.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Configuration.dll'
+2021-04-11 20:40:04.001 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Principal.Windows.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.Windows.dll'
+2021-04-11 20:40:04.002 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Configuration.dll - - - 200 18304 application/octet-stream 43.1769ms
+2021-04-11 20:40:04.002 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Principal.Windows.dll - - - 200 30600 application/octet-stream 59.7271ms
+2021-04-11 20:40:04.002 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.dll'
+2021-04-11 20:40:04.002 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.XmlSerializer.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlSerializer.dll'
+2021-04-11 20:40:04.002 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.dll - - - 200 22920 application/octet-stream 42.9198ms
+2021-04-11 20:40:04.002 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.XmlSerializer.dll - - - 200 16776 application/octet-stream 43.8956ms
+2021-04-11 20:40:04.003 +03:00 [INF] Sending file. Request path: '/_framework/System.Web.HttpUtility.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.HttpUtility.dll'
+2021-04-11 20:40:04.003 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.StackTrace.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll'
+2021-04-11 20:40:04.003 +03:00 [INF] Sending file. Request path: '/_framework/System.Xml.ReaderWriter.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.ReaderWriter.dll'
+2021-04-11 20:40:04.003 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.StackTrace.dll - - - 200 25480 application/octet-stream 34.5548ms
+2021-04-11 20:40:04.003 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Web.HttpUtility.dll - - - 200 26496 application/octet-stream 36.9299ms
+2021-04-11 20:40:04.003 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Xml.ReaderWriter.dll - - - 200 20872 application/octet-stream 33.8135ms
+2021-04-11 20:40:04.003 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.InteropServices.RuntimeInformation.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll'
+2021-04-11 20:40:04.003 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.InteropServices.RuntimeInformation.dll - - - 200 19336 application/octet-stream 33.0764ms
+2021-04-11 20:40:04.004 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.Compression.Brotli.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.Brotli.dll'
+2021-04-11 20:40:04.004 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Compression.Brotli.dll - - - 200 21896 application/octet-stream 32.9325ms
+2021-04-11 20:40:04.004 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.Ping.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Ping.dll'
+2021-04-11 20:40:04.004 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Ping.dll - - - 200 21888 application/octet-stream 32.3242ms
+2021-04-11 20:40:04.005 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.ServicePoint.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.ServicePoint.dll'
+2021-04-11 20:40:04.005 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.ServicePoint.dll - - - 200 24960 application/octet-stream 31.6950ms
+2021-04-11 20:40:04.005 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.TypeExtensions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll'
+2021-04-11 20:40:04.006 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.TypeExtensions.dll - - - 200 22408 application/octet-stream 30.0187ms
+2021-04-11 20:40:04.006 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.CompilerServices.VisualC.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll'
+2021-04-11 20:40:04.006 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.IO.dll - -
+2021-04-11 20:40:04.006 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.CompilerServices.VisualC.dll - - - 200 16776 application/octet-stream 30.6213ms
+2021-04-11 20:40:04.007 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Primitives.dll - -
+2021-04-11 20:40:04.009 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Security.SecureString.dll - -
+2021-04-11 20:40:04.009 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.InteropServices.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.dll'
+2021-04-11 20:40:04.010 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.InteropServices.dll - - - 200 35200 application/octet-stream 33.2438ms
+2021-04-11 20:40:04.010 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Primitives.dll'
+2021-04-11 20:40:04.010 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Primitives.dll - - - 200 14728 application/octet-stream 2.8411ms
+2021-04-11 20:40:04.010 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.dll'
+2021-04-11 20:40:04.011 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.dll - - - 200 14728 application/octet-stream 4.3894ms
+2021-04-11 20:40:04.012 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.dll - -
+2021-04-11 20:40:04.012 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.SecureString.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.SecureString.dll'
+2021-04-11 20:40:04.013 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.SecureString.dll - - - 200 14216 application/octet-stream 3.7545ms
+2021-04-11 20:40:04.017 +03:00 [INF] Sending file. Request path: '/_framework/System.Drawing.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.Primitives.dll'
+2021-04-11 20:40:04.018 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Drawing.Primitives.dll - - - 200 59272 application/octet-stream 239.1037ms
+2021-04-11 20:40:04.019 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.AccessControl.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.AccessControl.dll'
+2021-04-11 20:40:04.020 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.AccessControl.dll - - - 200 42376 application/octet-stream 111.5792ms
+2021-04-11 20:40:04.023 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.dll'
+2021-04-11 20:40:04.023 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.dll - - - 200 16264 application/octet-stream 11.5767ms
+2021-04-11 20:40:04.025 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Logging.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll'
+2021-04-11 20:40:04.025 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Logging.dll - - - 200 42376 application/octet-stream 115.3142ms
+2021-04-11 20:40:04.026 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2021-04-11 20:40:04.026 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll'
+2021-04-11 20:40:04.026 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll - - - 200 44416 application/octet-stream 112.9117ms
+2021-04-11 20:40:04.026 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.FileSystemGlobbing.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll'
+2021-04-11 20:40:04.026 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll - - - 200 67976 application/octet-stream 292.2816ms
+2021-04-11 20:40:04.026 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.FileSystemGlobbing.dll - - - 200 39304 application/octet-stream 112.3922ms
+2021-04-11 20:40:04.028 +03:00 [INF] Sending file. Request path: '/_framework/System.Collections.Specialized.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Specialized.dll'
+2021-04-11 20:40:04.028 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Process.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Process.dll'
+2021-04-11 20:40:04.028 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.Process.dll - - - 200 40840 application/octet-stream 107.0853ms
+2021-04-11 20:40:04.028 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.Specialized.dll - - - 200 44936 application/octet-stream 106.3960ms
+2021-04-11 20:40:04.029 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.NetworkInformation.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NetworkInformation.dll'
+2021-04-11 20:40:04.029 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.NetworkInformation.dll - - - 200 35200 application/octet-stream 99.0828ms
+2021-04-11 20:40:04.030 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.DispatchProxy.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll'
+2021-04-11 20:40:04.031 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.Requests.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Requests.dll'
+2021-04-11 20:40:04.033 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.WebSockets.Client.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.Client.dll'
+2021-04-11 20:40:04.033 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.DispatchProxy.dll - - - 200 35720 application/octet-stream 96.8924ms
+2021-04-11 20:40:04.033 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Requests.dll - - - 200 45448 application/octet-stream 97.5011ms
+2021-04-11 20:40:04.034 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebSockets.Client.dll - - - 200 42888 application/octet-stream 95.6761ms
+2021-04-11 20:40:04.035 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.Channels.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Channels.dll'
+2021-04-11 20:40:04.036 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Channels.dll - - - 200 50056 application/octet-stream 97.1049ms
+2021-04-11 20:40:04.036 +03:00 [INF] Sending file. Request path: '/_framework/HotelListing.Client.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\HotelListing.Client.dll'
+2021-04-11 20:40:04.036 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/HotelListing.Client.dll - - - 200 17920 application/octet-stream 38.5128ms
+2021-04-11 20:40:04.036 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.HttpListener.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.HttpListener.dll'
+2021-04-11 20:40:04.039 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Encoding.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll'
+2021-04-11 20:40:04.039 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.HttpListener.dll - - - 200 39304 application/octet-stream 109.5020ms
+2021-04-11 20:40:04.039 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Encoding.dll - - - 200 25480 application/octet-stream 40.5308ms
+2021-04-11 20:40:04.040 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Win32.Registry.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Registry.dll'
+2021-04-11 20:40:04.040 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Win32.Registry.dll - - - 200 35208 application/octet-stream 95.4188ms
+2021-04-11 20:40:04.040 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.dll'
+2021-04-11 20:40:04.041 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.Tasks.Parallel.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll'
+2021-04-11 20:40:04.041 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.dll'
+2021-04-11 20:40:04.041 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Tasks.Parallel.dll - - - 200 51080 application/octet-stream 97.1655ms
+2021-04-11 20:40:04.041 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.dll - - - 200 38280 application/octet-stream 90.8994ms
+2021-04-11 20:40:04.041 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.dll - - - 200 43912 application/octet-stream 85.2655ms
+2021-04-11 20:40:04.043 +03:00 [INF] Sending file. Request path: '/_framework/System.ObjectModel.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ObjectModel.dll'
+2021-04-11 20:40:04.043 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ObjectModel.dll - - - 200 46976 application/octet-stream 69.1590ms
+2021-04-11 20:40:04.044 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.FileProviders.Physical.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll'
+2021-04-11 20:40:04.044 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.FileProviders.Physical.dll - - - 200 35720 application/octet-stream 66.0943ms
+2021-04-11 20:40:04.045 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Cng.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll'
+2021-04-11 20:40:04.045 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Cng.dll - - - 200 40328 application/octet-stream 68.3359ms
+2021-04-11 20:40:04.044 +03:00 [INF] Sending file. Request path: '/_framework/System.Private.Runtime.InteropServices.JavaScript.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll'
+2021-04-11 20:40:04.047 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Private.Runtime.InteropServices.JavaScript.dll - - - 200 44936 application/octet-stream 71.3784ms
+2021-04-11 20:40:04.048 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.MemoryMappedFiles.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll'
+2021-04-11 20:40:04.048 +03:00 [INF] Sending file. Request path: '/_framework/System.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.dll'
+2021-04-11 20:40:04.049 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.dll - - - 200 49032 application/octet-stream 69.4467ms
+2021-04-11 20:40:04.049 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.MemoryMappedFiles.dll - - - 200 42376 application/octet-stream 69.4502ms
+2021-04-11 20:40:04.049 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.Sockets.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Sockets.dll'
+2021-04-11 20:40:04.049 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Sockets.dll - - - 200 53128 application/octet-stream 152.6054ms
+2021-04-11 20:40:04.050 +03:00 [INF] Sending file. Request path: '/_framework/System.Memory.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Memory.dll'
+2021-04-11 20:40:04.050 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Tasks.Extensions.dll - -
+2021-04-11 20:40:04.050 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Memory.dll - - - 200 58248 application/octet-stream 154.4329ms
+2021-04-11 20:40:04.051 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.Pipelines.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll'
+2021-04-11 20:40:04.051 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Pipelines.dll - - - 200 67464 application/octet-stream 281.8264ms
+2021-04-11 20:40:04.052 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Claims.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Claims.dll'
+2021-04-11 20:40:04.053 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Claims.dll - - - 200 50568 application/octet-stream 146.9273ms
+2021-04-11 20:40:04.053 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.Tasks.Extensions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll'
+2021-04-11 20:40:04.053 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Tasks.Extensions.dll - - - 200 14728 application/octet-stream 3.5056ms
+2021-04-11 20:40:04.053 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Logging.Abstractions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll'
+2021-04-11 20:40:04.053 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Logging.Abstractions.dll - - - 200 52616 application/octet-stream 139.9471ms
+2021-04-11 20:40:04.054 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.JSInterop.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll'
+2021-04-11 20:40:04.054 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.JSInterop.dll - - - 200 51584 application/octet-stream 139.0310ms
+2021-04-11 20:40:04.056 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.Security.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Security.dll'
+2021-04-11 20:40:04.056 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.TraceSource.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll'
+2021-04-11 20:40:04.056 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.TraceSource.dll - - - 200 52616 application/octet-stream 134.0767ms
+2021-04-11 20:40:04.056 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Security.dll - - - 200 63368 application/octet-stream 129.4579ms
+2021-04-11 20:40:04.058 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Options.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Options.dll'
+2021-04-11 20:40:04.058 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.Options.dll - - - 200 54664 application/octet-stream 123.1073ms
+2021-04-11 20:40:04.059 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.X509Certificates.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll'
+2021-04-11 20:40:04.060 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.X509Certificates.dll - - - 200 57736 application/octet-stream 115.5976ms
+2021-04-11 20:40:04.061 +03:00 [INF] Sending file. Request path: '/_framework/mscorlib.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\mscorlib.dll'
+2021-04-11 20:40:04.061 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/mscorlib.dll - - - 200 56712 application/octet-stream 101.8116ms
+2021-04-11 20:40:04.062 +03:00 [INF] Sending file. Request path: '/_framework/System.Console.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Console.dll'
+2021-04-11 20:40:04.062 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Console.dll - - - 200 50048 application/octet-stream 90.7518ms
+2021-04-11 20:40:04.062 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll'
+2021-04-11 20:40:04.062 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.WebSockets.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.dll'
+2021-04-11 20:40:04.063 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.WebSockets.dll - - - 200 63880 application/octet-stream 87.8209ms
+2021-04-11 20:40:04.062 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Primitives.dll - - - 200 55176 application/octet-stream 85.2022ms
+2021-04-11 20:40:04.065 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.Formatters.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll'
+2021-04-11 20:40:04.066 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Serialization.Formatters.dll - - - 200 61832 application/octet-stream 89.2875ms
+2021-04-11 20:40:04.066 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.DependencyInjection.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll'
+2021-04-11 20:40:04.068 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.Extensions.DependencyInjection.dll - - - 200 74120 application/octet-stream 152.9240ms
+2021-04-11 20:40:04.068 +03:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.DiagnosticSource.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll'
+2021-04-11 20:40:04.068 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Diagnostics.DiagnosticSource.dll - - - 200 78728 application/octet-stream 145.8603ms
+2021-04-11 20:40:04.068 +03:00 [INF] Sending file. Request path: '/_framework/System.Formats.Asn1.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Formats.Asn1.dll'
+2021-04-11 20:40:04.068 +03:00 [INF] Sending file. Request path: '/_framework/System.Text.Encodings.Web.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encodings.Web.dll'
+2021-04-11 20:40:04.069 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Formats.Asn1.dll - - - 200 78720 application/octet-stream 142.5355ms
+2021-04-11 20:40:04.069 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Encodings.Web.dll - - - 200 66440 application/octet-stream 135.7849ms
+2021-04-11 20:40:04.071 +03:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Numerics.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Numerics.dll'
+2021-04-11 20:40:04.071 +03:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Algorithms.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll'
+2021-04-11 20:40:04.071 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Runtime.Numerics.dll - - - 200 74632 application/octet-stream 134.2876ms
+2021-04-11 20:40:04.071 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Security.Cryptography.Algorithms.dll - - - 200 80776 application/octet-stream 124.8611ms
+2021-04-11 20:40:04.072 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.dll'
+2021-04-11 20:40:04.072 +03:00 [INF] Sending file. Request path: '/_framework/System.Linq.Queryable.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Queryable.dll'
+2021-04-11 20:40:04.072 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.FileSystem.dll - - - 200 89992 application/octet-stream 180.7547ms
+2021-04-11 20:40:04.072 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Linq.Queryable.dll - - - 200 78216 application/octet-stream 100.0658ms
+2021-04-11 20:40:04.074 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.Primitives.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Primitives.dll'
+2021-04-11 20:40:04.074 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Components.Web.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll'
+2021-04-11 20:40:04.074 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Primitives.dll - - - 200 94600 application/octet-stream 177.4765ms
+2021-04-11 20:40:04.074 +03:00 [INF] Sending file. Request path: '/_framework/System.Collections.Concurrent.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Concurrent.dll'
+2021-04-11 20:40:04.074 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Components.Web.dll - - - 200 98696 application/octet-stream 331.3297ms
+2021-04-11 20:40:04.074 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.Concurrent.dll - - - 200 85384 application/octet-stream 154.1334ms
+2021-04-11 20:40:04.078 +03:00 [INF] Sending file. Request path: '/_framework/System.Collections.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.dll'
+2021-04-11 20:40:04.078 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.dll - - - 200 94088 application/octet-stream 160.6950ms
+2021-04-11 20:40:04.080 +03:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.Annotations.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Annotations.dll'
+2021-04-11 20:40:04.080 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.Annotations.dll - - - 200 89984 application/octet-stream 125.9791ms
+2021-04-11 20:40:04.083 +03:00 [INF] Sending file. Request path: '/_framework/System.IO.Compression.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.dll'
+2021-04-11 20:40:04.083 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.IO.Compression.dll - - - 200 101760 application/octet-stream 109.4967ms
+2021-04-11 20:40:04.085 +03:00 [INF] Sending file. Request path: '/_framework/System.Private.Uri.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Uri.dll'
+2021-04-11 20:40:04.086 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Private.Uri.dll - - - 200 98696 application/octet-stream 157.4099ms
+2021-04-11 20:40:04.086 +03:00 [INF] Sending file. Request path: '/_framework/netstandard.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\netstandard.dll'
+2021-04-11 20:40:04.086 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/netstandard.dll - - - 200 99720 application/octet-stream 127.5660ms
+2021-04-11 20:40:04.087 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.Mail.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Mail.dll'
+2021-04-11 20:40:04.087 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Mail.dll - - - 200 102784 application/octet-stream 114.2034ms
+2021-04-11 20:40:04.091 +03:00 [INF] Sending file. Request path: '/_framework/System.Transactions.Local.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.Local.dll'
+2021-04-11 20:40:04.091 +03:00 [INF] Sending file. Request path: '/_framework/System.Linq.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.dll'
+2021-04-11 20:40:04.091 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Transactions.Local.dll - - - 200 152456 application/octet-stream 181.3616ms
+2021-04-11 20:40:04.091 +03:00 [INF] Sending file. Request path: '/_framework/System.Private.Xml.Linq.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.Linq.dll'
+2021-04-11 20:40:04.091 +03:00 [INF] Sending file. Request path: '/_framework/System.Text.RegularExpressions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.RegularExpressions.dll'
+2021-04-11 20:40:04.092 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Private.Xml.Linq.dll - - - 200 152456 application/octet-stream 187.8198ms
+2021-04-11 20:40:04.092 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Text.RegularExpressions.dll - - - 200 189320 application/octet-stream 136.2943ms
+2021-04-11 20:40:04.095 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Linq.dll - - - 200 141192 application/octet-stream 123.6108ms
+2021-04-11 20:40:04.095 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Components.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll'
+2021-04-11 20:40:04.096 +03:00 [INF] Sending file. Request path: '/_framework/System.Threading.Tasks.Dataflow.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll'
+2021-04-11 20:40:04.096 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.AspNetCore.Components.dll - - - 200 180096 application/octet-stream 190.0467ms
+2021-04-11 20:40:04.096 +03:00 [INF] Sending file. Request path: '/_framework/System.Collections.Immutable.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Immutable.dll'
+2021-04-11 20:40:04.097 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Collections.Immutable.dll - - - 200 185736 application/octet-stream 141.9906ms
+2021-04-11 20:40:04.098 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Threading.Tasks.Dataflow.dll - - - 200 169864 application/octet-stream 189.0976ms
+2021-04-11 20:40:04.104 +03:00 [INF] Sending file. Request path: '/_framework/System.Linq.Parallel.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Parallel.dll'
+2021-04-11 20:40:04.104 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Linq.Parallel.dll - - - 200 224640 application/octet-stream 173.3180ms
+2021-04-11 20:40:04.123 +03:00 [INF] Sending file. Request path: '/_framework/System.Net.Http.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.dll'
+2021-04-11 20:40:04.123 +03:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.TypeConverter.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll'
+2021-04-11 20:40:04.124 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Net.Http.dll - - - 200 267136 application/octet-stream 194.6767ms
+2021-04-11 20:40:04.124 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.ComponentModel.TypeConverter.dll - - - 200 269192 application/octet-stream 166.5583ms
+2021-04-11 20:40:04.125 +03:00 [INF] Sending file. Request path: '/_framework/System.Text.Json.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Json.dll'
+2021-04-11 20:40:04.125 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Json.dll - - - 200 333192 application/octet-stream 216.4312ms
+2021-04-11 20:40:04.131 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.CSharp.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll'
+2021-04-11 20:40:04.132 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.CSharp.dll - - - 200 302464 application/octet-stream 156.6387ms
+2021-04-11 20:40:04.137 +03:00 [INF] Sending file. Request path: '/_framework/Microsoft.VisualBasic.Core.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll'
+2021-04-11 20:40:04.137 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/Microsoft.VisualBasic.Core.dll - - - 200 418696 application/octet-stream 218.1599ms
+2021-04-11 20:40:04.143 +03:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Metadata.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Metadata.dll'
+2021-04-11 20:40:04.143 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Reflection.Metadata.dll - - - 200 452488 application/octet-stream 207.0114ms
+2021-04-11 20:40:04.150 +03:00 [INF] Sending file. Request path: '/_framework/System.Linq.Expressions.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Expressions.dll'
+2021-04-11 20:40:04.151 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Linq.Expressions.dll - - - 200 559496 application/octet-stream 257.7391ms
+2021-04-11 20:40:04.165 +03:00 [INF] Sending file. Request path: '/_framework/System.Text.Encoding.CodePages.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll'
+2021-04-11 20:40:04.166 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Text.Encoding.CodePages.dll - - - 200 737672 application/octet-stream 257.8157ms
+2021-04-11 20:40:04.168 +03:00 [INF] Sending file. Request path: '/_framework/System.Private.DataContractSerialization.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.DataContractSerialization.dll'
+2021-04-11 20:40:04.168 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Private.DataContractSerialization.dll - - - 200 777096 application/octet-stream 230.9877ms
+2021-04-11 20:40:04.174 +03:00 [INF] Sending file. Request path: '/_framework/System.Data.Common.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.Common.dll'
+2021-04-11 20:40:04.174 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Data.Common.dll - - - 200 978304 application/octet-stream 214.9097ms
+2021-04-11 20:40:04.241 +03:00 [INF] Sending file. Request path: '/_framework/System.Private.Xml.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.dll'
+2021-04-11 20:40:04.241 +03:00 [INF] Sending file. Request path: '/_framework/System.Private.CoreLib.dll'. Physical path: 'C:\Users\caner\OneDrive\Belgeler\Web Development\Example\HotelListing\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.CoreLib.dll'
+2021-04-11 20:40:04.241 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Private.Xml.dll - - - 200 3082120 application/octet-stream 301.5233ms
+2021-04-11 20:40:04.241 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/_framework/System.Private.CoreLib.dll - - - 200 3101568 application/octet-stream 269.8853ms
+2021-04-11 20:40:08.138 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-04-11 20:40:08.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 84.1866ms
+2021-04-11 20:40:08.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-04-11 20:40:08.581 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map - -
+2021-04-11 20:40:08.588 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map - -
+2021-04-11 20:40:08.698 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map - - - 404 0 - 117.7639ms
+2021-04-11 20:40:08.698 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 110.2919ms
+2021-04-11 20:40:08.718 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.9732ms
+2021-04-11 20:40:41.523 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Hotel - -
+2021-04-11 20:40:41.532 +03:00 [INF] Executing endpoint 'HotelListing.Server.Controllers.HotelController.GetHotels (HotelListing.Server)'
+2021-04-11 20:40:41.584 +03:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotelListing.Server.Controllers.HotelController (HotelListing.Server).
+2021-04-11 20:40:43.245 +03:00 [INF] Entity Framework Core 5.0.4 initialized 'DatabaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-11 20:40:44.592 +03:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2021-04-11 20:40:44.674 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelListing.Shared.Models.HotelDTO, HotelListing.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-11 20:40:44.828 +03:00 [INF] Executed action HotelListing.Server.Controllers.HotelController.GetHotels (HotelListing.Server) in 3234.7668ms
+2021-04-11 20:40:44.829 +03:00 [INF] Executed endpoint 'HotelListing.Server.Controllers.HotelController.GetHotels (HotelListing.Server)'
+2021-04-11 20:40:44.835 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Hotel - - - 200 410 application/json;+charset=utf-8 3312.2791ms
+2021-04-11 20:40:55.718 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Country - -
+2021-04-11 20:40:55.720 +03:00 [INF] Executing endpoint 'HotelListing.Server.Controllers.CountryController.GetCountries (HotelListing.Server)'
+2021-04-11 20:40:55.741 +03:00 [INF] Route matched with {action = "GetCountries", controller = "Country", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCountries() on controller HotelListing.Server.Controllers.CountryController (HotelListing.Server).
+2021-04-11 20:40:55.788 +03:00 [INF] Entity Framework Core 5.0.4 initialized 'DatabaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-11 20:40:55.805 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2021-04-11 20:40:55.816 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelListing.Shared.Models.CountryDTO, HotelListing.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-11 20:40:55.820 +03:00 [INF] Executed action HotelListing.Server.Controllers.CountryController.GetCountries (HotelListing.Server) in 79.1704ms
+2021-04-11 20:40:55.820 +03:00 [INF] Executed endpoint 'HotelListing.Server.Controllers.CountryController.GetCountries (HotelListing.Server)'
+2021-04-11 20:40:55.821 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Country - - - 200 226 application/json;+charset=utf-8 102.5554ms
+2021-04-11 20:41:22.557 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Hotel/4 - -
+2021-04-11 20:41:22.564 +03:00 [INF] CORS policy execution successful.
+2021-04-11 20:41:22.571 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-04-11 20:41:22.576 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-04-11 20:41:22.576 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Hotel/4 - - - 401 0 - 19.5942ms
+2021-04-11 20:41:51.623 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Account/login application/json-patch+json 48
+2021-04-11 20:41:51.623 +03:00 [INF] CORS policy execution successful.
+2021-04-11 20:41:51.623 +03:00 [INF] Executing endpoint 'HotelListing.Server.Controllers.AccountController.Login (HotelListing.Server)'
+2021-04-11 20:41:51.649 +03:00 [INF] Route matched with {action = "Login", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelListing.Shared.Models.LoginUserDTO) on controller HotelListing.Server.Controllers.AccountController (HotelListing.Server).
+2021-04-11 20:41:51.747 +03:00 [INF] Login attempt for user@example.com
+2021-04-11 20:41:51.765 +03:00 [INF] Entity Framework Core 5.0.4 initialized 'DatabaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-11 20:41:51.972 +03:00 [INF] Executed DbCommand (113ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-04-11 20:41:52.220 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-04-11 20:41:52.356 +03:00 [INF] Executing AcceptedResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-04-11 20:41:52.368 +03:00 [INF] Executed action HotelListing.Server.Controllers.AccountController.Login (HotelListing.Server) in 718.8358ms
+2021-04-11 20:41:52.368 +03:00 [INF] Executed endpoint 'HotelListing.Server.Controllers.AccountController.Login (HotelListing.Server)'
+2021-04-11 20:41:52.370 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Account/login application/json-patch+json 48 - 202 349 application/json;+charset=utf-8 747.7869ms
+2021-04-11 20:41:58.135 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Hotel/4 - -
+2021-04-11 20:41:58.135 +03:00 [INF] CORS policy execution successful.
+2021-04-11 20:41:58.137 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-04-11 20:41:58.138 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-04-11 20:41:58.138 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Hotel/4 - - - 401 0 - 3.1723ms
+2021-04-11 20:43:11.872 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/api/Hotel/4 - -
+2021-04-11 20:43:11.962 +03:00 [INF] Successfully validated the token.
+2021-04-11 20:43:11.964 +03:00 [INF] Authorization was successful.
+2021-04-11 20:43:11.964 +03:00 [INF] Executing endpoint 'HotelListing.Server.Controllers.HotelController.DeleteHotel (HotelListing.Server)'
+2021-04-11 20:43:11.968 +03:00 [INF] Route matched with {action = "DeleteHotel", controller = "Hotel", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteHotel(Int32) on controller HotelListing.Server.Controllers.HotelController (HotelListing.Server).
+2021-04-11 20:43:11.973 +03:00 [INF] Entity Framework Core 5.0.4 initialized 'DatabaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-11 20:43:11.995 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+WHERE [h].[Id] = @__id_0
+2021-04-11 20:43:12.013 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+WHERE [h].[Id] = @__p_0
+2021-04-11 20:43:12.185 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Hotels]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2021-04-11 20:43:12.222 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-04-11 20:43:12.222 +03:00 [INF] Executed action HotelListing.Server.Controllers.HotelController.DeleteHotel (HotelListing.Server) in 254.396ms
+2021-04-11 20:43:12.222 +03:00 [INF] Executed endpoint 'HotelListing.Server.Controllers.HotelController.DeleteHotel (HotelListing.Server)'
+2021-04-11 20:43:12.223 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/api/Hotel/4 - - - 204 - - 351.2759ms
+2021-04-11 20:43:28.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Hotel - -
+2021-04-11 20:43:28.769 +03:00 [INF] Executing endpoint 'HotelListing.Server.Controllers.HotelController.GetHotels (HotelListing.Server)'
+2021-04-11 20:43:28.769 +03:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotelListing.Server.Controllers.HotelController (HotelListing.Server).
+2021-04-11 20:43:28.770 +03:00 [INF] Entity Framework Core 5.0.4 initialized 'DatabaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-11 20:43:28.774 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM [Hotels] AS [h]
+2021-04-11 20:43:28.775 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelListing.Shared.Models.HotelDTO, HotelListing.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-11 20:43:28.776 +03:00 [INF] Executed action HotelListing.Server.Controllers.HotelController.GetHotels (HotelListing.Server) in 6.3226ms
+2021-04-11 20:43:28.776 +03:00 [INF] Executed endpoint 'HotelListing.Server.Controllers.HotelController.GetHotels (HotelListing.Server)'
+2021-04-11 20:43:28.776 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Hotel - - - 200 295 application/json;+charset=utf-8 7.3459ms
