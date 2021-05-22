@@ -7,7 +7,7 @@ using HotelListing.Data;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace HotelListing
+namespace HotelListing.Data
 {
     public class DatabaseContext : IdentityDbContext<ApiUser>
     {

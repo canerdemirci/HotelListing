@@ -1,16 +1,13 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using HotelListing.Shared;
 using AutoMapper;
 using HotelListing.Shared.Models;
 using HotelListing.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
-using Marvin.Cache.Headers;
+using HotelListing.IRepository;
 
 namespace HotelListing.Server.Controllers
 {

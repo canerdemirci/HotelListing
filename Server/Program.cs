@@ -16,7 +16,7 @@ namespace HotelListing.Server
         {
             Log.Logger = new LoggerConfiguration()
                 .WriteTo
-                .File(path: "C:\\Users\\caner\\OneDrive\\Belgeler\\Web Development\\Example\\HotelListing\\Server\\log-.txt",
+                .File(path: "C:\\Users\\caner\\OneDrive\\Belgeler\\Web Development\\Example\\HotelListing\\Server\\Log_Files\\log-.txt",
                     outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}",
                     rollingInterval: RollingInterval.Day,
                     restrictedToMinimumLevel: Serilog.Events.LogEventLevel.Information)
